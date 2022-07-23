@@ -1,0 +1,122 @@
+{
+  "easycom": {
+    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [{
+      "path": "pages/home/main",
+      "style": {
+        "navigationBarTitleText": "图书商城",
+        "onReachBottomDistance": 10
+      }
+    },
+    {
+      "path": "pages/goods/category",
+      "style": {
+        "navigationBarTitleText": "图书分类"
+      }
+    },
+    {
+      "path": "pages/goods/info",
+      "style": {
+        "navigationBarTitleText": "图书信息"
+      }
+    },
+    {
+      "path": "pages/goods/star",
+      "style": {
+        "navigationBarTitleText": "图书收藏"
+      }
+    },
+    {
+      "path": "pages/cart/main",
+      "style": {
+        "navigationBarTitleText": "购物车"
+      }
+    },
+    {
+      "path": "pages/profile/center",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/profile/info",
+      "style": {
+        "navigationBarTitleText": "个人信息"
+      }
+    },
+    {
+      "path": "pages/profile/setting",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    },
+    {
+      "path": "pages/auth/register",
+      "style": {
+        "navigationBarTitleText": "注册"
+      }
+    },
+    {
+      "path": "pages/auth/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/address/main",
+      "style": {
+        "navigationBarTitleText": "收货地址"
+      }
+    },
+    {
+      "path": "pages/address/action",
+      "style": {
+        "navigationBarTitleText": "地址管理"
+      }
+    },
+    {
+      "path": "pages/order/preview",
+      "style": {
+        "navigationBarTitleText": "订单预览"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "图书商城",
+    "navigationBarBackgroundColor": "#5592f8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/home/main",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/goods/category",
+        "iconPath": "static/tabbar/category.png",
+        "selectedIconPath": "static/tabbar/category-selected.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart/main",
+        "iconPath": "static/tabbar/cart.png",
+        "selectedIconPath": "static/tabbar/cart-selected.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/profile/center",
+        "iconPath": "static/tabbar/center.png",
+        "selectedIconPath": "static/tabbar/center-selected.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
